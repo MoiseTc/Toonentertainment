@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -57,5 +58,475 @@ header ul li {
 .page1 p {
   padding: 15rem 12rem 15rem 12rem;
   font-size: 4rem;
+}
+
+.page2 {
+  padding: 4rem 7rem 4rem 7rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.page2 h5 {
+  color: #00d8d6;
+}
+
+.page2 h1 {
+  font-weight: bold;
+  padding-bottom: 1rem;
+  color: #1e272e;
+}
+
+.page2 p {
+  font-size: 1.2rem;
+  color: #8c9398;
+  padding-bottom: .6rem;
+  padding-top: .6rem;
+}
+
+.page2 button {
+  border: black solid .1rem;
+  padding: .8rem 1rem .8rem 1rem;
+  background-color: white;
+  border-radius: .2rem;
+}
+
+.page2 h4 {
+  padding-top: 2rem;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.page2 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page2 ul li {
+  list-style-type: none;
+  padding-top: .5rem;
+}
+
+.page2 ul .face {
+  padding-right: 1rem;
+}
+
+.page2 ul .face button {
+  font-size: .7rem;
+  padding: .5rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: #5f7cb9;
+  color: white;
+}
+
+.page2 ul .ter {
+  padding-right: 1rem;
+}
+
+.page2 ul .ter button {
+  font-size: .7rem;
+  padding: .5rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: #0097E6;
+  color: white;
+}
+
+.page2 ul .goo {
+  padding-right: 1.5rem;
+}
+
+.page2 ul .goo button {
+  font-size: .7rem;
+  padding: .5rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: #ff3f34;
+  color: white;
+}
+
+.page3 {
+  padding: 4rem 0 0 0;
+  background-color: #f5eded;
+}
+
+.page3 .top {
+  text-align: center;
+}
+
+.page3 .top h5 {
+  color: lightskyblue;
+  font-size: 1rem;
+  text-shadow: #82ccfa;
+}
+
+.page3 .top h1 {
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.page3 .ser {
+  padding: 3rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: .5rem;
+}
+
+.page3 .ser img {
+  height: 45rem;
+  width: 40rem;
+  border-radius: 1%;
+}
+
+.page3 .ser .thoughts ul li {
+  list-style-type: none;
+  padding: 1.2rem;
+}
+
+.page3 .ser .thoughts ul li i {
+  font-size: 2rem;
+  color: red;
+  padding: 1.5rem 0 1.5rem 0;
+  cursor: pointer;
+}
+
+.page3 .ser .thoughts ul li i:hover {
+  color: #00d8d6;
+}
+
+.page4 {
+  padding: 3.5rem 2rem 3.5rem 2rem;
+  background-color: black;
+  color: white;
+}
+
+.page4 ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: .5rem;
+  text-align: center;
+}
+
+.page4 ul li {
+  list-style-type: none;
+}
+
+.page5 .top {
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.page5 .top h5 {
+  color: lightskyblue;
+  font-size: 1rem;
+  text-shadow: #82ccfa;
+}
+
+.page5 .top h1 {
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.page5 ul {
+  padding: 3rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: .8rem;
+}
+
+.page5 ul img {
+  height: 17rem;
+}
+
+.page5 ul li {
+  list-style-type: none;
+}
+
+.page6 {
+  padding: 2rem;
+}
+
+.page6 .top {
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.page6 .top h5 {
+  color: lightskyblue;
+  font-size: 1rem;
+  text-shadow: #82ccfa;
+}
+
+.page6 .top h1 {
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.page6 ul {
+  padding: 3rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1.5rem;
+}
+
+.page6 ul li {
+  list-style-type: none;
+}
+
+.page6 ul li .card img {
+  height: 17rem;
+}
+
+.page6 ul li .card .container {
+  padding: 3rem 2rem;
+}
+
+.page6 ul li .card .small {
+  padding: 1rem;
+}
+
+.page7 {
+  height: 70vh;
+  background-image: url(https://demo.w3layouts.com/demos_new/template_demo/28-11-2018/toon_demo_Free/1075172621/web/images/banner4.jpg);
+  background-size: cover;
+  text-align: center;
+  padding: 8rem;
+  color: white;
+}
+
+.page7 h5 {
+  color: #43b5db;
+}
+
+.page7 h1 {
+  font-weight: bold;
+}
+
+.page7 p {
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+.page7 button {
+  padding: .5rem 1rem .5rem 1rem;
+  background: transparent;
+  border: solid .2rem white;
+  color: white;
+}
+
+.page8 {
+  padding: 4rem;
+}
+
+.page8 .top {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.page8 .top h5 {
+  color: lightskyblue;
+  font-size: 1rem;
+  text-shadow: #82ccfa;
+}
+
+.page8 .top h1 {
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.page8 ul {
+  padding: 2rem 4rem 2rem 7rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.page8 ul li {
+  list-style-type: none;
+}
+
+.page8 ul li i {
+  font-size: 4rem;
+}
+
+footer {
+  padding: 1rem;
+  background-color: #21e4d3;
+  height: 75vh;
+}
+
+footer .use {
+  padding: 2rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+footer .use .section1 a {
+  color: black;
+}
+
+footer .use .section1 a:hover {
+  text-decoration: none;
+}
+
+footer .use .section1 p {
+  color: white;
+}
+
+footer .use .section1 h3 {
+  padding: .1rem;
+}
+
+footer .use .section1 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .use .section1 ul li {
+  list-style-type: none;
+  padding-top: 1rem;
+}
+
+footer .use .section1 ul .face {
+  padding-right: 1.5rem;
+}
+
+footer .use .section1 ul .face button {
+  font-size: .7rem;
+  padding: .5rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: blue;
+  color: white;
+}
+
+footer .use .section1 ul .ter {
+  padding-right: 1.5rem;
+}
+
+footer .use .section1 ul .ter button {
+  font-size: .7rem;
+  padding: .5rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: blue;
+  color: white;
+}
+
+footer .use .section1 ul .goo {
+  padding-right: 1.5rem;
+}
+
+footer .use .section1 ul .goo button {
+  font-size: .7rem;
+  padding: .5rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: blue;
+  color: white;
+}
+
+footer .use .section1 ul .ble {
+  padding-right: 1.5rem;
+}
+
+footer .use .section1 ul .ble button {
+  font-size: .7rem;
+  padding: .5rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: blue;
+  color: white;
+}
+
+footer .use .section2 {
+  padding: 1rem;
+}
+
+footer .use .section2 h3 {
+  font-weight: bold;
+}
+
+footer .use .section2 ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+footer .use .section2 ul li {
+  list-style-type: none;
+  padding: .5rem 0 .5rem 0;
+}
+
+footer .use .section2 ul li a {
+  color: white;
+}
+
+footer .use .section2 ul li a:hover {
+  text-decoration: none;
+}
+
+footer .use .section3 {
+  padding: 1rem;
+}
+
+footer .use .section3 p {
+  color: white;
+}
+
+footer .use .section3 button {
+  padding: .5rem 1rem .5rem 1rem;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 2rem;
+}
+
+footer .ly ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .ly ul li {
+  list-style-type: none;
+  color: white;
+}
+
+footer .ly ul li b {
+  color: black;
+}
+
+footer .ly ul li h6 {
+  color: white;
+  padding-left: 32rem;
+}
+
+footer .ly ul li h6 b {
+  padding-left: 1rem;
+}
+
+footer .ly ul li h6 b button {
+  padding: .3rem .5rem .3rem .5rem;
+  border: none;
+  border-radius: 1.5rem;
 }
 /*# sourceMappingURL=style.css.map */
